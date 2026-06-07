@@ -59,7 +59,7 @@ namespace DesafioFundamentos.Models
                 // Removendo a placa digitada da lista de veículos
                 veiculos.Remove(placa);
 
-                Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal.ToString("C")}");
+                Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: {valorTotal:C}");
             }
             else
             {
